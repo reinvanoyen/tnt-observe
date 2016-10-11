@@ -1,0 +1,31 @@
+{
+  "name": "tnt-observe",
+  "version": "0.0.1",
+  "description": "Object and Array observe (using Proxy)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinvanoyen/tnt-observe.git"
+  },
+  "keywords": [
+    "observe",
+    "object",
+    "array",
+    "object observe",
+    "array observe"
+  ],
+  "author": "Rein Van Oyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinvanoyen/tnt-observe.git/issues"
+  },
+  "homepage": "https://github.com/reinvanoyen/tnt-observe.git#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0"
+  }
+}
